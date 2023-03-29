@@ -5,18 +5,18 @@ body {
 }
 
 .header {
-    display: flex;
     width: 100%;
 }
 
 .company {
     margin-left: 20px;
     color: #0096FF;
+    display: inline-block;
 }
 
 .logoutbtn {
     float: right;
-    margin-left: 900px;
+    margin-right: 60px;
     margin-top: 20px;
     padding: 15px;
     width: 100px;
@@ -167,4 +167,27 @@ body {
     background-color: pink;
     color: black;
     cursor: pointer;
+}
+
+/* Responsif untuk layar yang lebih kecil */
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .logoutbtn {
+        margin-right: 30px;
+    }
+
+    .formulir {
+        width: 300px;
+    }
+
+    .detail-tiket {
+        width: 400px;
+    }
+
+    .navbar a {
+        margin: 7px;
+    }
 }

@@ -54,7 +54,7 @@ if (isset($_POST['masuk'])) {
 <body>
     <div class="header">
         <h1 class="company">TRAVELEON</h1>
-        <a href="logout.php"><button class="logoutbtn">Logout</button></a>
+        <a href="daftar.php"><button class="logoutbtn">Daftar</button></a>
     </div>
     <div class="navbar">
     </div>

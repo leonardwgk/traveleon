@@ -30,7 +30,7 @@ if (isset($_POST['daftar'])) {
 <body>
     <div class="header">
         <h1 class="company">TRAVELEON</h1>
-        <a href="logout.php"><button class="logoutbtn">Logout</button></a>
+        <a href="masuk.php"><button class="logoutbtn">Masuk</button></a>
     </div>
     <div class="navbar">
     </div>
